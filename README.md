@@ -4,6 +4,8 @@
 It uses min-max algorithm (https://en.wikipedia.org/wiki/Minimax)
 
 pygame library was used in this project : It is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
+'
+#### IMPORTANT NOTE:  run "pip3 install -r requirements.txt" to install the required Python package (pygame) for this project. After this Run "python runner.py" to play against the AI
 
 How minimax algorithm works:
 A type of algorithm in adversarial search, Minimax represents winning conditions as (-1) for one side and (+1) for the other side. Further actions will be driven by these conditions, with the minimizing side trying to get the lowest score, and the maximizer trying to get the highest score.
@@ -67,3 +69,4 @@ THe only possible outcomes are tie, draw.
 You can play aS X or O. The computer will play the other one.
 
 Alternatively Alpha- beta pruning could also be used for this project but i Found that tricky.
+
